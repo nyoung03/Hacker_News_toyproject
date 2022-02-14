@@ -1,13 +1,13 @@
-import "../css/header.css";
+import { TopCard } from "./topcard";
 
 export const TopForm = () => {
   return (
     <div className="topbox">
       <div className="subtitle">TOP</div>
       <ul className="toplist">
-        <li className="topcontents"></li>
-        <li className="topcontents"></li>
-        <li className="topcontents"></li>
+        <TopCard />
+        <TopCard />
+        <TopCard />
       </ul>
     </div>
   );

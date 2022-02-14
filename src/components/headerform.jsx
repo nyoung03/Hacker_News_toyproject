@@ -1,16 +1,17 @@
 import logo from "../imgs/logo.png";
-import ham from "../imgs/Vector.png";
+import about from "../imgs/Vector.png";
+import { Link, Router, Switch } from "react-router-dom";
 
 export const HeaderForm = () => {
   return (
     <>
       <div className="outline"></div>
-      <header>
-        <img src={logo} alt="logo" class="logo" />
+      <header className="head">
+        <img src={logo} alt="logo" className="logo" />
         <div className="title">Hacker News</div>
-        <a href="#" className="ham">
-          <img src={ham} alt="" />
-        </a>
+        <div className="about">
+          <img src={about} alt="" />
+        </div>
       </header>
     </>
   );

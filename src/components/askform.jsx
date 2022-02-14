@@ -1,11 +1,13 @@
+import { AskCard } from "./askCard";
+
 export const AskForm = () => {
   return (
-    <div class="askbox">
-      <div class="subtitle">ASK</div>
+    <div className="askbox">
+      <div className="subtitle">ASK</div>
       <ul className="asklist">
-        <li className="askcontents"></li>
-        <li className="askcontents"></li>
-        <li className="askcontents"></li>
+        <AskCard />
+        <AskCard />
+        <AskCard />
       </ul>
     </div>
   );

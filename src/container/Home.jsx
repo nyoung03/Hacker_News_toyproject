@@ -7,10 +7,11 @@ import { ShowForm } from "../components/showform";
 import { AskForm } from "../components/askform";
 import { JobsForm } from "../components/jobform";
 import "../css/Home.css";
+import "../css/common.css";
 
 export const Home = () => {
   return (
-    <div className="wrapper">
+    <div className="wrap">
       <HeaderForm />
       <NavForm />
       <RankerForm />

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital@0;1&display=swap");
+
+/* Header */
+.outline {
+  height: 25px;
+}
+.title {
+  font-family: "Newsreader";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 35.5364px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+  border-bottom: 2px solid #eeeeee;
+  color: #ffffff;
+}
+.logo {
+  width: 43px;
+  height: 50px;
+  margin-left: 7%;
+}
+.head > .about {
+  margin-right: 5%;
+  /* border: 1px solid red; */
+}
+.plus {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 138.19%;
+}
+.plus > * {
+  padding-left: 6px;
+}
+.plus > *:first-child {
+  padding-left: 0;
+}
+
+.time {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 138.19%;
+
+  text-align: right;
+  letter-spacing: -0.01em;
+
+  color: #2a6b25;
+}
